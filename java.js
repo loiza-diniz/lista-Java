@@ -72,3 +72,10 @@ function verificarSinal(numero) {
     else if (numero < 0) console.log("Negativo");
     else console.log("Zero");
 }
+
+//12
+function classificarNota(nota) {
+    if (nota < 5) console.log("Reprovado");
+    else if (nota < 7) console.log("Recuperação");
+    else console.log("Aprovado");
+}
