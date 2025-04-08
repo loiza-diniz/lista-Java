@@ -180,3 +180,14 @@ function paresUmAVinte() {
         console.log(i);
     }
 }
+
+//24
+function somarParesImpares(numeros) {
+    let pares = 0, impares = 0;
+    for (let numero of numeros) {
+        if (numero % 2 === 0) pares += numero;
+        else impares += numero;
+    }
+    console.log("Soma dos pares:", pares);
+    console.log("Soma dos ímpares:", impares);
+}
