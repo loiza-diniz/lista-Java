@@ -131,3 +131,14 @@ function tabuada(numero) {
         console.log(`${numero} x ${i} = ${numero * i}`);
     }
 }
+
+//19
+function somarAteZero() {
+    let soma = 0;
+    let numero;
+    do {
+        numero = Number(prompt("Digite um número (0 para parar): "));
+        soma += numero;
+    } while (numero !== 0);
+    console.log("Resultado:", soma);
+}
