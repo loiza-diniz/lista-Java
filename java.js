@@ -117,3 +117,10 @@ function classificarIdade(idade) {
     }
     console.log(faixa);
 }
+
+//17
+function imprimirUmADez() {
+    for (let i = 1; i <= 10; i++) {
+        console.log(i);
+    }
+}
