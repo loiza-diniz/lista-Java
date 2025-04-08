@@ -49,3 +49,8 @@ function demonstrarDiferencas() {
     console.log("Number(\"10\") + 5 =", Number("10") + 5);
     console.log("\"10\" + 5 =", "10" + 5);
 }
+
+//09
+function verificarMaioridade(idade) {
+    console.log(idade >= 18 ? "Maior de idade" : "Menor de idade");
+}
