@@ -36,3 +36,10 @@ function resolverExpressao() {
     let resultado = (10 + 5) * 2 / 4;
     console.log("Resultado da expressão:", resultado);
 }
+
+//07
+function compararNumeros(a, b) {
+    if (a > b) console.log("O primeiro número é maior");
+    else if (b > a) console.log("O segundo número é maior");
+    else console.log("Os números são iguais");
+}
