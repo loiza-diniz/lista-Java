@@ -15,3 +15,7 @@ function somarDez(valor) {
     console.log("Resultado:", num + 10);
 }
 
+//03
+function nomeCompleto(nome, sobrenome) {
+    console.log("Nome completo:", nome + " " + sobrenome);
+}
