@@ -105,3 +105,15 @@ function Bissexto(ano) {
     const bissexto = (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0);
     console.log(bissexto ? "Bissexto" : "ano comum");
 }
+
+//16
+function classificarIdade(idade) {
+    let faixa = "";
+    switch (true) {
+        case idade <= 12: faixa = "Criança"; break;
+        case idade <= 17: faixa = "Adolescente"; break;
+        case idade <= 59: faixa = "Adulto"; break;
+        default: faixa = "Idoso";
+    }
+    console.log(faixa);
+}
