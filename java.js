@@ -191,3 +191,16 @@ function somarParesImpares(numeros) {
     console.log("Soma dos pares:", pares);
     console.log("Soma dos ímpares:", impares);
 }
+
+//25
+function fibonacci(n) {
+    let a = 1, b = 1;
+    console.log(a);
+    if (n > 1) console.log(b);
+    for (let i = 3; i <= n; i++) {
+        let prox = a + b;
+        console.log(prox);
+        a = b;
+        b = prox;
+    }
+}
