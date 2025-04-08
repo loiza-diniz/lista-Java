@@ -25,3 +25,8 @@ function Media(n1, n2, n3) {
     let media = (n1 + n2 + n3) / 3;
     console.log("Média:", media.toFixed(2));
 }
+
+//05
+function ParOuImpar(numero) {
+    console.log(numero % 2 === 0 ? "Par" : "Ímpar");
+}
