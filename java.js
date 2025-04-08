@@ -85,3 +85,17 @@ function diaDaSemana(numero) {
     const dias = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
     console.log(dias[numero - 1] || "Número inválido");
 }
+
+//14
+function IMC(peso, altura) {
+    const imc = peso / (altura * altura);
+    let classificacao = "";
+    if (imc < 18.5) classificacao = "Abaixo do peso";
+    else if (imc < 25) classificacao = "Peso normal";
+    else if (imc < 30) classificacao = "Sobrepeso";
+    else if (imc < 35) classificacao = "Obesidade grau I";
+    else if (imc < 40) classificacao = "Obesidade grau II";
+    else classificacao = "Obesidade grau III";
+
+    console.log(`IMC: ${imc.toFixed(2)} - ${classificacao}`);
+}
