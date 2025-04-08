@@ -19,3 +19,9 @@ function somarDez(valor) {
 function nomeCompleto(nome, sobrenome) {
     console.log("Nome completo:", nome + " " + sobrenome);
 }
+
+//04
+function Media(n1, n2, n3) {
+    let media = (n1 + n2 + n3) / 3;
+    console.log("Média:", media.toFixed(2));
+}
