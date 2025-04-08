@@ -30,3 +30,9 @@ function Media(n1, n2, n3) {
 function ParOuImpar(numero) {
     console.log(numero % 2 === 0 ? "Par" : "Ímpar");
 }
+
+//06
+function resolverExpressao() {
+    let resultado = (10 + 5) * 2 / 4;
+    console.log("Resultado da expressão:", resultado);
+}
