@@ -43,3 +43,9 @@ function compararNumeros(a, b) {
     else if (b > a) console.log("O segundo número é maior");
     else console.log("Os números são iguais");
 }
+
+//08
+function demonstrarDiferencas() {
+    console.log("Number(\"10\") + 5 =", Number("10") + 5);
+    console.log("\"10\" + 5 =", "10" + 5);
+}
