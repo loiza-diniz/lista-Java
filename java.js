@@ -173,3 +173,10 @@ function contagemRegressiva() {
         console.log(i);
     }
 }
+
+//23
+function paresUmAVinte() {
+    for (let i = 2; i <= 20; i += 2) {
+        console.log(i);
+    }
+}
