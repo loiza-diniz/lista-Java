@@ -54,3 +54,14 @@ function demonstrarDiferencas() {
 function verificarMaioridade(idade) {
     console.log(idade >= 18 ? "Maior de idade" : "Menor de idade");
 }
+
+//10
+function calculadora(a, b, operacao) {
+    switch (operacao) {
+        case "+": console.log(a + b); break;
+        case "-": console.log(a - b); break;
+        case "*": console.log(a * b); break;
+        case "/": console.log(b !== 0 ? a / b : "Divisão por zero"); break;
+        default: console.log("Operação inválida");
+    }
+}
