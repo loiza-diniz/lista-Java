@@ -166,3 +166,10 @@ function fatorial(n) {
     }
     console.log(`Fatorial de ${n} é ${resultado}`);
 }
+
+//22
+function contagemRegressiva() {
+    for (let i = 10; i >= 0; i--) {
+        console.log(i);
+    }
+}
