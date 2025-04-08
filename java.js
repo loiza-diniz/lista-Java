@@ -99,3 +99,9 @@ function IMC(peso, altura) {
 
     console.log(`IMC: ${imc.toFixed(2)} - ${classificacao}`);
 }
+
+//15
+function Bissexto(ano) {
+    const bissexto = (ano % 4 === 0 && ano % 100 !== 0) || (ano % 400 === 0);
+    console.log(bissexto ? "Bissexto" : "ano comum");
+}
