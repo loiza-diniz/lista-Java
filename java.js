@@ -158,3 +158,11 @@ function mediaAteNegativo() {
     console.log("Média:", media);
 }
 
+//21
+function fatorial(n) {
+    let resultado = 1;
+    for (let i = 2; i <= n; i++) {
+        resultado *= i;
+    }
+    console.log(`Fatorial de ${n} é ${resultado}`);
+}
