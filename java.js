@@ -142,3 +142,19 @@ function somarAteZero() {
     } while (numero !== 0);
     console.log("Resultado:", soma);
 }
+
+//20
+function mediaAteNegativo() {
+    let soma = 0, count = 0;
+    let numero;
+    do {
+        numero = Number(prompt("Digite um número (negativo para parar): "));
+        if (numero >= 0) {
+            soma += numero;
+            count++;
+        }
+    } while (numero >= 0);
+    const media = soma / count;
+    console.log("Média:", media);
+}
+
