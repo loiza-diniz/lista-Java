@@ -79,3 +79,9 @@ function classificarNota(nota) {
     else if (nota < 7) console.log("Recuperação");
     else console.log("Aprovado");
 }
+
+//13
+function diaDaSemana(numero) {
+    const dias = ["Domingo", "Segunda", "Terça", "Quarta", "Quinta", "Sexta", "Sábado"];
+    console.log(dias[numero - 1] || "Número inválido");
+}
